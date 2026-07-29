@@ -29,9 +29,9 @@ execute:
 
 # Analytics Objectives
 
-## State your AO  for your project.
+## State your AO for your project.
 
-### Original AO: 
+### Original AO:
 
 Determine whether repeat customers are a more margin-efficient growth channel than new customer acquisition
 
@@ -50,7 +50,7 @@ Develop a supervised classification model that uses a customer’s acquisition c
 2.  What are the variables to be included and their roles (i.e., outcome vs. features)
 
     | Variable | Role | Data Type | Reasoning |
-    |-----------------|----------|------------|----------------------------------|
+    |----------------|----------|------------|-------------------------|
     | `repeat_90_days` | Outcome | Binary categorical | Indicates whether the customer made another purchase within 90 days of the initial transaction. |
     | Traffic source | Feature | Categorical | Examines whether the customer’s acquisition channel helps predict repeat purchasing. |
     | Product category | Feature | Categorical | Accounts for differences in repeat-purchase behavior across product types. |
@@ -80,6 +80,22 @@ The classification methods in the codebook will be compared to determine which m
 # Libraries
 
 > Set up your QMD file with appropriate libraries and data and go through the entire machine learning process for your AO according to the process explained in the codebook.
+
+```         
+library(tidymodels)
+library(tidyverse)
+library(discrim) 
+library(klaR)
+library(kknn)
+library(factoextra)
+library(patchwork)
+library(poissonreg)
+library(broom)
+
+tidymodels_prefer()
+
+set.seed(2025)
+```
 
 1.  First, pick a machine learning method and explain why the method would be the best.  
 
