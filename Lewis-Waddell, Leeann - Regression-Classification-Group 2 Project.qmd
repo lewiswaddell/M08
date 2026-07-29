@@ -1,0 +1,58 @@
+---
+title: "Reflection on Regression and Classification Models with Group Project Data"
+subtitle: "Analytics Objective: Predict spending of a customer at an e-commerce site"
+author: "Leeann Lewis-Waddell"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    toc-expand: 1
+    toc-location: right-body
+    toc-title: "Contents"
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    theme: cosmo
+    highlight-style: github
+    df-print: kable
+    embed-resources: true
+execute:
+  warning: false
+  message: false
+  freeze: true
+---
+
+1.  State your AO (Analytics Objectives) for your project. If your AO didn't involve machine learning (supervised or unsupervised learning), please revise it so that the objective is appropriately stated for a machine learning task. Further state how you will address the objectives. Specifically describe the following:
+
+    1.  Supervised learning or unsupervised learning
+
+    2.  What are the variables to be included and their roles (i.e., outcome vs. features)
+
+    3.  Name of the broader category of machine learning methods (i.e., regression vs. classification)
+
+2.  Choose either of the two codebooks that explain methods for your chosen machine learning task (i.e., regression vs. classification)
+
+    1.  [https://jaejungca.github.io/regression-models/m04_regression_models.htmlLinks to an external site.](https://jaejungca.github.io/regression-models/m04_regression_models.html)
+
+    2.  [https://jaejungca.github.io/classification/m05_classification_clustering.html#na%C3%AFve-bayes-classifierLinks to an external site.](https://jaejungca.github.io/classification/m05_classification_clustering.html#na%C3%AFve-bayes-classifier) 
+
+3.  Set up your QMD file with appropriate libraries and data and go through the entire machine learning process for your AO according to the process explained in the codebook.
+
+    1.  First, pick a machine learning method and explain why the method would be the best.  
+
+    2.  Second, go through the entire machine learning process for your AO according to the process explained in the codebook. The process will include data splitting, recipe creation, model specification, model fitting, and model evaluation. Interpret the results.
+
+    3.  What alternative methods can you try to improve the metrics produced above? Try them.
+
+    4.  Compare all methods you tried using 10-fold cross-validation. Interpret the results. Which one is the best? Does it make sense? Why or why not?
+
+    5.  Produce a chart that shows the importance of features. Is the result reasonable? Why or why not? 
+
+4.  Address the five questions at the end of either Module 4 (Regression) or Module 5 (Classification) codebook, depending on your AO.
+
+# Appendix
+
+-   [GitHub Repo](https://github.com/lewiswaddell/M08.git)
+
+-   GitHub Pages
